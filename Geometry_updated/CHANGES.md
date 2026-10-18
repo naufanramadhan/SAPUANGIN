@@ -1,0 +1,24 @@
+# Perubahan dari Geometry.zip
+
+- Input proposed F tetap dipertahankan dan dikecualikan dari studi.
+- Rear track dikunci pada baseline untuk studi pelebaran depan.
+- Dua skenario roll stiffness menggantikan satu sweep yang menggabungkan perubahan axle.
+- Kapasitas lateral mengharuskan kedua axle memenuhi demand steady-state serta
+  membatasi kondisi wheel lift; tidak menjumlahkan seluruh grip sebagai satu batas.
+- Perhitungan sprung mass tiap axle dan roll-axis height dibuat konsisten dengan
+  total axle mass dan unsprung mass.
+- Panjang lintasan dan curvature diperlakukan konsisten; shortcut radius berbasis
+  clearance dihapus. Semua kandidat memakai path yang sama.
+- Solver speed profile memeriksa konvergensi periodic dan kelayakan hasil.
+- Steering skidpad memakai geometri ideal yang konsisten dan menyatakan kondisi
+  sudut tidak cukup sebagai infeasible.
+- Perkiraan buckling SF, batas CV dan klaim geometri optimum dihapus dari seleksi
+  karena panjang arm/hardpoint belum diteliti.
+- Estimasi delta yaw inertia diberi label proxy dan tidak dianggap respons yaw.
+- Definisi motion ratio menjadi eksplisit, dengan sensitivitas dua interpretasi.
+- Ditambah sensitivitas input, snapshot input, CSV, MAT, grafik, dan pemeriksaan model.
+- Ditambah jalur eksekusi Octave tanpa ketergantungan pada `readcell` atau `table`.
+
+Arsip pembaruan berisi file aktif untuk workflow baru. Script dan output lama
+tetap tersedia pada ZIP unggahan asli; folder `.git`, log debug lokal dan output
+lama tidak disalin ke paket baru.

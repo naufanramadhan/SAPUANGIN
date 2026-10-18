@@ -1,0 +1,35 @@
+PASS: Rear track stays fixed
+PASS: Two scenarios agree at measured baseline
+PASS: Controlled scenario holds axle roll stiffness
+PASS: Fixed wheel rate exposes added front roll stiffness
+PASS: Vertical force conservation, case 1
+PASS: Total lateral overturning moment, case 1
+PASS: Left/right symmetry, case 1
+PASS: Reported capacity meets BOTH axle demands
+PASS: Capacity boundary actually limits the vehicle
+PASS: Vertical force conservation, case 2
+PASS: Total lateral overturning moment, case 2
+PASS: Left/right symmetry, case 2
+PASS: Reported capacity meets BOTH axle demands
+PASS: Capacity boundary actually limits the vehicle
+PASS: Vertical force conservation, case 3
+PASS: Total lateral overturning moment, case 3
+PASS: Left/right symmetry, case 3
+PASS: Reported capacity meets BOTH axle demands
+PASS: Capacity boundary actually limits the vehicle
+PASS: Known front-limited constant-mu case
+PASS: Known rear-limited constant-mu case
+PASS: Insufficient steering is infeasible, not zero-speed valid
+PASS: Narrow corridor cannot produce a valid lap
+PASS: Uniform path scaling transforms curvature and length consistently
+PASS: Analytic constant-radius, constant-speed lap
+PASS: Full supplied track completes with physically feasible axle demand
+PASS: Periodic speed solution remains unchanged on continuation
+PASS: Full supplied track completes with physically feasible axle demand
+PASS: Periodic speed solution remains unchanged on continuation
+PASS: Unmodelled hardpoints are explicitly unvalidated
+PASS: Unit motion ratio is independent of convention
+PASS: Unreachable held roll stiffness rejects an impossible spring solution
+PASS: Modified workbook rejects a stale JSON snapshot
+
+PASS: 33 model checks completed.

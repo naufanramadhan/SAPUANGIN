@@ -61,7 +61,7 @@
     "front_track_max_mm": 1280,
     "track_step_mm": 5,
     "rear_track_delta_mode": "fixed",
-    "tire_section_width_mm": 205,
+    "tire_section_width_mm": 152.4,
     "cone_safety_margin_m": 0.2,
     "max_speed_kph": 105,
     "max_accel_mps2": 5,
@@ -83,7 +83,7 @@
     "sensitivity_mu_fraction": 0.1,
     "sensitivity_h_mm": 20
   },
-  "workbook_size_bytes": 44141,
-  "workbook_mtime_unix": 1792365300.6658435,
-  "workbook_sha256": "74ba13df18a4a9a65bffe362bd9267456af0eb7e06893733da9ef99fc7028ada"
+  "workbook_size_bytes": 44175,
+  "workbook_mtime_unix": 1792430047.6630173,
+  "workbook_sha256": "9b0ea49ee916f0fc17b9c31e8ab860d6070f27aca4fcae0efb3b3ef22717a1b7"
 }

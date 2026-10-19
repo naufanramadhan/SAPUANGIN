@@ -5,6 +5,7 @@ Riset pelebaran track depan kendaraan formula, dengan input Excel dan model MATL
 - [Folder kode dan panduan lengkap](Geometry_updated/README.md)
 - [Hasil eksekusi dan batas interpretasi](Geometry_updated/RESULTS.md)
 - [Bukti validasi model](Geometry_updated/VALIDATION.md)
+- [Profil sumber terpilih dan pemetaan data](Geometry_updated/reference_data/README.md)
 - [Paket pembaruan ZIP](Geometry_updated.zip)
 - [Arsip unggahan awal](Geometry.zip)
 

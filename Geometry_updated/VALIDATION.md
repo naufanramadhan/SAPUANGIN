@@ -1,5 +1,18 @@
 # Bukti eksekusi dan batas validasi
 
+## Pemeriksaan setelah data sumber dipilih
+
+- Dua workbook sumber dibaca read-only; SHA256 sebelum/sesudah identik.
+- File audit terpisah dibuat; formula sumber ditampilkan sebagai teks atau nilai
+  cache, tanpa menjalankan atau memperbaiki formula tersebut.
+- Perubahan numerik pada workbook input model hanya `tire_section_width_mm`:
+  205 → 152.4 mm sesuai konfirmasi pengguna. XML sheet input 1–5 tidak berubah.
+- Snapshot JSON diperbarui; model dijalankan kembali untuk 34 kombinasi nominal
+  dan 12 perbandingan sensitivitas. Semua lolos batas event yang diterapkan.
+- 33 pemeriksaan model dijalankan ulang dan lulus; log baru disertakan di run
+  `output/study_20261019_171408/model_checks.txt`.
+- Hasil waktunya sama dengan run awal; clearance bertambah 0.0263 m per sisi.
+
 ## Yang dieksekusi
 
 - MATLAB-compatible `.m` model, melalui **GNU Octave 9.4.0** di Linux.

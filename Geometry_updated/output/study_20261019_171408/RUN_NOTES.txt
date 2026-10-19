@@ -1,0 +1,9 @@
+Engine: GNU Octave 9.4.0
+Run timestamp: 2026-10-19 17:14:08
+Front-only study; rear track 1140 mm. Two roll-stiffness scenarios.
+Path length 1022.429873 m; scale 1.000000000. Assetto Corsa spline, unverified JSAE geometry.
+MR convention spring_over_wheel inherited from original multiplication formula; verify actual definition.
+Force capacity requires each axle to meet its steady-state demand. Wheel lift is a boundary.
+Times are screening estimates. No transient yaw, driver, aero, actual steering mechanism,
+arm hardpoints, added mass, structural SF or complete swept-envelope validation.
+Proposed column F and historical Excel dashboard are not study outputs.

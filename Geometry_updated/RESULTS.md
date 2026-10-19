@@ -1,5 +1,21 @@
 # Hasil eksekusi versi pembaruan
 
+## Pembaruan setelah konfirmasi data sumber
+
+Run terbaru: `output/study_20261019_171408/`, dengan lebar ban yang disetujui pengguna
+**152.4 mm**. Profil acuan adalah tabel `Parameter SAS 8` pada
+`VD CALCULATION OLD 2 .xlsx / Analisis OptimumK`. Input utama profil tersebut
+sudah sesuai dengan model, sehingga massa, distribusi bobot dan dimensi dasar
+tidak diubah. Kedua workbook unggahan baru tetap identik dengan sumber aslinya.
+
+Perubahan 205 → 152.4 mm meningkatkan perkiraan clearance sebesar **26.3 mm per
+sisi**. Waktu lap dan kapasitas lateral tetap sama dalam model ini, karena semua
+kandidat sudah memenuhi batas clearance dan path yang dipakai tetap. Ini tidak
+membuktikan bahwa lebar ban tidak berpengaruh pada mobil nyata; model ban belum
+memakai section width sebagai input karakteristik gaya ban.
+
+Run awal berikut dipertahankan sebagai arsip dengan inputnya sendiri.
+
 Model `.m` dijalankan menggunakan GNU Octave 9.4.0. Tidak ada MATLAB berlisensi
 di lingkungan eksekusi ini. Output run yang disertakan:
 `output/study_20261018_231501/`. Nama folder memakai waktu mesin eksekusi.

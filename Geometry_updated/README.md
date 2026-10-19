@@ -30,6 +30,13 @@ MATLAB juga membuat dashboard PNG.
 
 ## Input yang digunakan
 
+Profil sumber telah dipilih pengguna: `VD CALCULATION OLD 2 .xlsx` →
+`Analisis OptimumK` → tabel `Parameter SAS 8`. Lebar ban **152.4 mm**
+dikonfirmasi pengguna untuk menggantikan pengaturan lama 205 mm. Sumber asli
+tidak diubah. Pemetaan nilai dan masalah yang belum dikoreksi tersedia di
+[`reference_data`](reference_data/README.md). Parameter yang cocok secara angka
+belum otomatis berarti hasil pengukuran fisik yang tervalidasi.
+
 File: `input/FSAE_VD_3_KASAR .xlsx`.
 
 - `02_INPUT_VARIABLES`, **kolom E**: baseline kendaraan.

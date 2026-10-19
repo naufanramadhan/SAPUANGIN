@@ -1,0 +1,13 @@
+{
+  "target": "Geometry_updated/input/FSAE_VD_3_KASAR .xlsx",
+  "field": "tire_section_width_mm",
+  "before": 205,
+  "after": 152.4,
+  "source": "VD CALCULATION OLD 2 .xlsx",
+  "sheet": "Analisis OptimumK",
+  "cell": "C32",
+  "user_confirmation": "152,4 mm adalah lebar yang dipakai",
+  "source_files_changed": false,
+  "target_sha256_before": "74ba13df18a4a9a65bffe362bd9267456af0eb7e06893733da9ef99fc7028ada",
+  "target_sha256_after": "9b0ea49ee916f0fc17b9c31e8ab860d6070f27aca4fcae0efb3b3ef22717a1b7"
+}
